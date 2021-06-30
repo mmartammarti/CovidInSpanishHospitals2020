@@ -5,7 +5,7 @@ by Damaris Clariana and Marta Marti, July 2021
 
 - [Project Brief](#project_brief)
 - [Finding and processing the data](#finding_and_processing_the_data)
-- [Processing data with Tableau](#processing_data_with_tableau)
+- [Processing](#processing)
 - [Conclusions](#conclusions)
 - [Refferences](#refferences)
 
@@ -31,7 +31,7 @@ __Challenge__:
 __Learnings/Conclusions__:
 
 
-## Processing data with Tableau  
+## Processing
 
 __Tasks__:vdvfdvdfs
 __Challenge__:
