@@ -3,8 +3,8 @@ by Damaris Clariana and Marta Marti, July 2021
 
 ## Content
 
-- [Project Brief](#project_brief)
-- [Finding and processing the data](#finding_and_processing_the_data)
+- [Project Brief](#project-brief)
+- [Finding and processing the data](#finding-and-processing-the-data)
 - [Processing](#processing)
 - [Conclusions](#conclusions)
 - [Refferences](#refferences)
