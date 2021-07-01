@@ -21,10 +21,12 @@ __Results__: You can read the full story we prepared [in Medium](https://martama
 
 ## Finding and processing the data 
 
-This study has been developed with the set of excel spreadsheets related to Covid-19 pandemic sitation lived in sSpain in 2020 available in Kaggle ([link here](https://www.kaggle.com/danigarci1/covid19-in-spain)).
+This study has been developed with the set of excel spreadsheets related to Covid-19 pandemic sitation lived in Spain in 2020 available in Kaggle ([link here](https://www.kaggle.com/danigarci1/covid19-in-spain)).
 
 __Tasks__:First we have processed and clean the excels with python i order to obtain the data as we wanted to.
+
 __Challenge__:The most difficult part of this data processing section has been translating all the columns into English all together at the same time.
+
 __Learnings/Conclusions__: Look at the code we finally (and with some help) came up with!
 
 ```rename_dct = {'fecha': 'date',
