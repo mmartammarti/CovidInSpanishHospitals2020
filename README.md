@@ -17,7 +17,7 @@ __Scenario__: In this project we want to  effect in Spanish hospitals during the
 __Challenge__: This Case study has been centered in analizing how was COVID-19's impact in Spanish Hospitals during the weeks of quarantine, from March until May 2020. Finding the right data was the first challenge. Once we found it, processing it applying our learnings was the second one.
 You can follow the evolution of our workflow in [our Kaggle diagram in Trello.](https://trello.com/b/gMolkS8a/spain-covid19-evolution)
 
-__Results__: You can read the full story we prepared [in Medium](https://martamartidausa.medium.com/once-upon-a-time-in-2020-8926c52b63ce). Also, see our [class presentation](https://docs.google.com/presentation/d/1dQKDws_-9TbYiWTeNklnyJOZwzONCreBCL8sHWzBlGM/edit?usp=sharing).
+__Results__: You can read the full story we prepared [in Medium](https://damarisclariana.medium.com/once-upon-a-time-in-2020-f69d2bfbf688). Also, see our [class presentation](https://docs.google.com/presentation/d/1dQKDws_-9TbYiWTeNklnyJOZwzONCreBCL8sHWzBlGM/edit?usp=sharing).
 
 ## Finding and processing the data 
 
