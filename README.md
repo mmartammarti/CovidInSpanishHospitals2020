@@ -1,5 +1,5 @@
 # Covid In Spanish Hospitals 2020 🏥 🛌 😷
-by Damaris Clariana and Marta Marti, July 2021
+by Dàmaris Clariana and Marta Marti, July 2021
 
 ## Content
 
