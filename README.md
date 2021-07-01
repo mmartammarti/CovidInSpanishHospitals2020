@@ -14,30 +14,49 @@ by Damaris Clariana and Marta Marti, July 2021
 
 __Scenario__: In this project we want to  effect in Spanish hospitals during the firsts months of quarantine.
 
-[Our Kaggle diagram in trello.](https://trello.com/b/gMolkS8a/spain-covid19-evolution)
+__Challenge__: This Case study has been centered in analizing how was COVID-19's impact in Spanish Hospitals during the weeks of quarantine, from March until May 2020. Finding the right data was the first challenge. Once we found it, processing it applying our learnings was the second one.
+You can follow the evolution of our workflow in [our Kaggle diagram in Trello.](https://trello.com/b/gMolkS8a/spain-covid19-evolution)
 
-__Challenge__: This Case study has been centered in analizing how was COVID-19's impact in Spanish Hospitals during the weeks of quarantine, from March until May 2020.
-
-__Results__: You can read the full story we prepared [in Medium](https://martamartidausa.medium.com/once-upon-a-time-in-2020-8926c52b63ce). 
+__Results__: You can read the full story we prepared [in Medium](https://martamartidausa.medium.com/once-upon-a-time-in-2020-8926c52b63ce). Also, see our [class presentation](https://docs.google.com/presentation/d/1dQKDws_-9TbYiWTeNklnyJOZwzONCreBCL8sHWzBlGM/edit?usp=sharing).
 
 ## Finding and processing the data 
 
 This study has been developed with the set of excel spreadsheets related to Covid-19 pandemic sitation lived in sSpain in 2020 available in Kaggle ([link here](https://www.kaggle.com/danigarci1/covid19-in-spain)).
 
 __Tasks__:First we have processed and clean the excels with python i order to obtain the data as we wanted to.
-__Challenge__:
+__Challenge__:The most difficult part of this data processing section has been translating all the columns into English all together at the same time.
+__Learnings/Conclusions__: Look at the code we finally (and with some help) came up with!
 
-```I am a code example
+```rename_dct = {'fecha': 'date',
+             'rango_edad': 'age',
+             'sexo': 'gender',
+             'casos_confirmados': 'confirmed_cases',
+             'hospitalizados': 'hospitalized',
+             'fallecidos': 'deceed',
+             'ingresos_uci': 'ICU_new_entrances',
+             'casos_total': 'total_cases',
+             'casos_pcr': 'pcr_cases',
+             'altas': 'discharges',
+             'casos_test_ac': 'ACtest_cases',
+             'fallecimientos': 'deceed',
+             'CCAA': 'region',
+             'Públicos': 'public',
+             'Privados': 'private',
+             'mascarillas_acumulado_desde_2020-03-10': 'masks_available_since200310'
+             }
+#df = df.rename(columns=rename_dct)
+def rename_dfs(dfs_lst, rename_dct):
+    return [df.rename(columns=rename_dct) for df in dfs_lst]
+dfs_lst = [discharges, cases, deaths, hospitalized, ICU, masks, ICU_beds_2017, national_covid19, national_age_gender]
+discharges_renamed, cases_renamed, deaths_renamed, hospitalized_renamed, ICU_renamed, masks_renamed, ICU_beds_2017_renamed, national_covid19_renamed, national_age_gender_renamed = rename_dfs(dfs_lst, rename_dct)
+discharges_renamed
 ```
-
-__Learnings/Conclusions__:
-
 
 ## Processing data with Tableau  
 
-__Tasks__:vdvfdvdfs
-__Challenge__:
-__Learnings/Conclusions__:
+__Tasks__: Successful data visualization.
+__Challenge__: Transforming our data to readable and appealing charts that help us underatand it better.
+__Learnings/Conclusions__: The tool has more possbilities than it can seem on first hand. From merging data sources and work on them all at the same time, to adding calculations and special treatments for every value.
 
 ## Conclusions
 
