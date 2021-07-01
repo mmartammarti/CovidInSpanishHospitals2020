@@ -94,7 +94,7 @@ Some regions had a higher impact of deaths.
 We tried to relate the number of deaths versus discharges assuming that the quality of the sanitary system in rural areas like Castilla La Mancha (where mortality is closer to 50% in proportion with discharges) and Castilla y León would not have helped to save as many patients as the areas with top hospitals did.
 In addition to that, regions with top hospitals like Madrid and Catalonia also had a high ratio of deaths by discharges. We guessed it was due to the amount and density of the population.
 
--Deaths vs Discharges proportions by region with highlights:
+- Deaths vs Discharges proportions by region with highlights:
 ![descharges versus deaths highlight](https://user-images.githubusercontent.com/30186859/124134863-90cf2e80-da83-11eb-8995-d83921b4586b.jpg)
 
 In the chart below we can understand how in some areas with not enough available ICU beds, death rates in proportion with discharges are significantly higher than in areas with enough coverage.
