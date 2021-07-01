@@ -12,18 +12,18 @@ by Dàmaris Clariana and Marta Marti, July 2021
 
 ## Project Brief
 
-__Scenario__: In this project we want to  effect in Spanish hospitals during the firsts months of quarantine.
+__Scenario__: In this project we want to better understand the situation in Spanish hospitals during the firsts months of quarantine.
 
-__Challenge__: This Case study has been centered in analizing how was COVID-19's impact in Spanish Hospitals during the weeks of quarantine, from March until May 2020. Finding the right data was the first challenge. Once we found it, processing it applying our learnings was the second one.
+__Challenge__: This Case study has been centered in analizing how was COVID-19's impact in Spanish Hospitals during 2 and a half months of quarantine, from March until May 2020. Finding the right data was the first challenge. Once we found it, processing it applying our learnings was the second one.
 You can follow the evolution of our workflow in [our Kaggle diagram in Trello.](https://trello.com/b/gMolkS8a/spain-covid19-evolution)
 
-__Results__: You can read the full story we prepared [in Medium](https://damarisclariana.medium.com/once-upon-a-time-in-2020-f69d2bfbf688). Also, see our [class presentation](https://docs.google.com/presentation/d/1dQKDws_-9TbYiWTeNklnyJOZwzONCreBCL8sHWzBlGM/edit?usp=sharing).
+__Results__: We create a story for this study which you can read [in Medium](https://damarisclariana.medium.com/once-upon-a-time-in-2020-f69d2bfbf688). Also, see our [class presentation](https://docs.google.com/presentation/d/1dQKDws_-9TbYiWTeNklnyJOZwzONCreBCL8sHWzBlGM/edit?usp=sharing).
 
 ## Finding and processing the data 
 
-This study has been developed with the set of excel spreadsheets related to Covid-19 pandemic sitation lived in Spain in 2020 available in Kaggle ([link here](https://www.kaggle.com/danigarci1/covid19-in-spain)).
+This study has been developed with the set of excel spreadsheets related to Covid-19 pandemic situation lived in Spain in 2020 available in Kaggle ([link here](https://www.kaggle.com/danigarci1/covid19-in-spain)).
 
-__Tasks__:First we have processed and clean the excels with python i order to obtain the data as we wanted to.
+__Tasks__:First we have processed and clean the excels with python in order to obtain the data as we wanted to.
 
 __Challenge__:The most difficult part of this data processing section has been translating all the columns into English all together at the same time.
 
@@ -57,12 +57,12 @@ discharges_renamed
 ## Processing data with Tableau  
 
 __Tasks__: Successful data visualization.
-__Challenge__: Transforming our data to readable and appealing charts that help us underatand it better.
+__Challenge__: Transforming our data to readable and appealing charts that help us understand it better.
 __Learnings/Conclusions__: The tool has more possbilities than it can seem on first hand. From merging data sources and work on them all at the same time, to adding calculations and special treatments for every value.
 
 ## Conclusions
 
-This is a full picture of how the situation evolved during the first 2 months, in which the entire country was confined in quarantine. 
+This is a full picture of how the situation evolved during only the first 2 months of quarantine, in which the entire country was confined. 
 Each color shows a region's evolution in confirmed cases. The black line shows the total cases of death aggregating all the regions.
 Cases by every region and general deaths evolution.
 
@@ -73,7 +73,7 @@ Spain is split into 19 regions and this is how it looked regarding confirmed cas
 
 In the next bar chart we can see the number of cases in Covid-19 splitted by age and gender. Green is for men, purple for women. 
 The total for those 2 months was 248.953 cases, and it continued increasing afterwards.
-In general, more women than men got infected although there was not a very big difference between them. Well, except for the 20–29, 30–39 and 90's age range. Men outnumbered women in 50–59 and 60–69.
+In general, more women than men got infected although there was not a very big difference between them. Except for the 20–29, 30–39 and 90's age range. Men outnumbered women in 50–59 and 60–69.
 Related to groups of ages, Covid-19 hit specially from 50 to upwards.
 
 - Number of cases by age and gender:
