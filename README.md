@@ -15,7 +15,7 @@ by Dàmaris Clariana and Marta Marti, July 2021
 __Scenario__: In this project we want to better understand the situation in Spanish hospitals during the firsts months of quarantine.
 
 __Challenge__: This Case study has been centered in analizing how was COVID-19's impact in Spanish Hospitals during 2 and a half months of quarantine, from March until May 2020. Finding the right data was the first challenge. Once we found it, processing it applying our learnings was the second one.
-You can follow the evolution of our workflow in [our Kaggle diagram in Trello.](https://trello.com/b/gMolkS8a/spain-covid19-evolution)
+You can follow the evolution of our workflow in [our board in Trello.](https://trello.com/b/gMolkS8a/spain-covid19-evolution)
 
 __Results__: We create a story for this study which you can read [in Medium](https://damarisclariana.medium.com/once-upon-a-time-in-2020-f69d2bfbf688). Also, see our [class presentation](https://docs.google.com/presentation/d/1dQKDws_-9TbYiWTeNklnyJOZwzONCreBCL8sHWzBlGM/edit?usp=sharing).
 
